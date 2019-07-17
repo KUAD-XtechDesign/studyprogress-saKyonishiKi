@@ -66,7 +66,7 @@ text-align: center;
 opacity: 1;
 }
 .cp_offcm02 nav {
-background: #FFB74D;
+background: #e2970c;
 }
 .cp_offcm02 nav, .cp_offcm02 ul {
 height: 100%;
@@ -75,7 +75,7 @@ height: 100%;
 display: inline-block;
 margin-right: -6px;
 border: none;
-color: #ffffff;
+color: #000000;
 }
 .cp_offcm02 a {
 display: block;
