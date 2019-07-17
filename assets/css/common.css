@@ -35,22 +35,3 @@ li{
 .mb_l{
   margin-bottom: 40px;
 }
-
-
-a.cp_btn {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	color: #FF5722;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
-	border: double 4px #FF5722;
-	border-radius: 50%;
-	vertical-align: middle;
-	overflow: hidden;
-	transition: .6s;
-}
-a.cp_btn:hover {
-	transform: rotateY(360deg);
-}
