@@ -15,8 +15,8 @@ img{
   max-width: 100%;
   height: auto;
   position: absolute;
-  top: 700px;
-  right: 430px;
+  top: 750px;
+  right: 530px;
 }
 
 
@@ -35,12 +35,11 @@ img{
     padding-top: 20px;
 }
 .buttons img{
-    display: block;
-    max-width: 50%;
+    max-width: 28%;
     display: block;
     position: absolute;
-    top:900px;
-    left:100px;
+    top:890px;
+    left:130px;
 
 }
 .button{
@@ -59,7 +58,7 @@ img{
 
 }
 .button img{
-    max-width: 50%;
+    max-width: 25%;
     display: block;
     position: absolute;
     top:870px;
@@ -80,7 +79,7 @@ img{
     padding-top: 20px;
 }
 .image img{
-  max-width: 45%;
+  max-width: 27%;
   display: block;
   position: absolute;
   top:870px;
