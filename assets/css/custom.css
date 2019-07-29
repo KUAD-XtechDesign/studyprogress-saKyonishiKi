@@ -16,7 +16,7 @@ img{
   height: auto;
   position: absolute;
   top: 750px;
-  right: 530px;
+  right: 680px;
 }
 
 
@@ -62,7 +62,7 @@ img{
     display: block;
     position: absolute;
     top:870px;
-    left:245px;
+    left:255px;
 }
 .image{
   /* ここで改行される */
@@ -83,7 +83,7 @@ img{
   display: block;
   position: absolute;
   top:870px;
-  right:230px;
+  right:280px;
 }
 .images{
   /* ここで改行される */
