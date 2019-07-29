@@ -1,9 +1,9 @@
 html{
   color: #333;
-  background: #ffefe0;
+  background: #ffffff;
 
 font-size: 18px;
-line-height: 1.7;
+line-height: 1.5;
 }
 
 *{
@@ -11,105 +11,110 @@ line-height: 1.7;
   padding: 0;
   box-sizing: border-box;
 }
-
 img{
   max-width: 100%;
   height: auto;
-}
-
-a{
-  color: #333;
-}
-
-li{
-  list-style-position: none;
-}
-.mb_s{
-  margin-bottom: 10px;
-}
-
-.mb_m{
-  margin-bottom: 20px;
-}
-
-.mb_l{
-  margin-bottom: 40px;
+  position: absolute;
+  top: 100px;
+  right: 420px;
 }
 
 
-.cp_arrows *, .cp_arrows *:before, .cp_arrows *:after {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+.buttons{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
 }
-.cp_arrows {
-	position: relative;
-	display: flex;
-	height: 100px;/*画面いっぱいにする場合100vh*/
-	margin: 2em auto;
-	justify-content: center;
-	align-items: center;
+.buttons img{
+    display: block;
+    max-width: 50%;
+    display: block;
+    position: absolute;
+    top:330px;
+    left:105px;
+
 }
-.cp_arrows .cp_arrow {
-	position: absolute;
-	top: 50%;/*着地点（サンプルは[class:cp_arrows]height300pxの50%）*/
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
-	-webkit-transform-origin: 50% 50%;
-	        transform-origin: 50% 50%;
-	opacity: 0;
+.button{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
+
 }
-.cp_arrows .cp_arrowfirst {
-	-webkit-animation: arrow-move08 2s ease-in-out infinite;
-	        animation: arrow-move08 2s ease-in-out infinite;
+.button img{
+    max-width: 50%;
+    display: block;
+    position: absolute;
+    top:300px;
+    left:250px;
 }
-.cp_arrows .cp_arrowsecond {
-	-webkit-animation: arrow-move08 2s 1s ease-in-out infinite;
-	        animation: arrow-move08 2s 1s ease-in-out infinite;
+.image{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
 }
-.cp_arrows .cp_arrow:before, .cp_arrows .cp_arrow:after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-	width: 30px;
-	height: 3px;
-	content: '';
-	background: #E91E;
+.image img{
+  max-width: 45%;
+  display: block;
+  position: absolute;
+  top:300px;
+  right:230px;
 }
-.cp_arrows .cp_arrow:before {
-	-webkit-transform: rotate(30deg) translateX(-39%);
-	        transform: rotate(30deg) translateX(-39%);
-	-webkit-transform-origin: top left;
-	        transform-origin: top left;
+.images{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
 }
-.cp_arrows .cp_arrow:after {
-	-webkit-transform: rotate(-30deg) translateX(39%);
-	        transform: rotate(-30deg) translateX(39%);
-	-webkit-transform-origin: top right;
-	        transform-origin: top right;
+.image img{
+  max-width: 45%;
+  display: block;
+  position: absolute;
+  top:300px;
+  right:230px;
 }
-@-webkit-keyframes arrow-move08 {
-	0% {
-		top: 40%;/*スタート地点（サンプルは[class:cp_arrows]height300pxの35%）*/
-		opacity: 0;
-	}
-	70% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+
+
+
+footer{
+      position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
 }
-@keyframes arrow-move08 {
-	0% {
-		top: 40%;/*スタート地点（サンプルは[class:cp_arrows]height300pxの35%）*/
-		opacity: 0;
-	}
-	70% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+
+p.text_center {
+    text-align: center;
 }

@@ -1,0 +1,120 @@
+html{
+  color: #333;
+  background: #ffffff;
+
+font-size: 18px;
+line-height: 1.5;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 700px;
+  right: 430px;
+}
+
+
+.buttons{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
+}
+.buttons img{
+    display: block;
+    max-width: 50%;
+    display: block;
+    position: absolute;
+    top:900px;
+    left:100px;
+
+}
+.button{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
+
+}
+.button img{
+    max-width: 50%;
+    display: block;
+    position: absolute;
+    top:870px;
+    left:245px;
+}
+.image{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
+}
+.image img{
+  max-width: 45%;
+  display: block;
+  position: absolute;
+  top:870px;
+  right:230px;
+}
+.images{
+  /* ここで改行される */
+    display: block;
+
+    position: relative;
+
+    /* ここで中央寄せ */
+    margin: 0 auto;
+
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-top: 20px;
+}
+.images img{
+  max-width: 45%;
+  display: block;
+  position: absolute;
+  top:880px;
+  right:230px;
+}
+
+
+
+footer{
+  position:fixed;
+    bottom: 0; /*下に固定*/
+}
+
+.text_center {
+    text-align: center;
+}
