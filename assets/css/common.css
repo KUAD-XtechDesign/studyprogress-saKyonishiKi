@@ -14,16 +14,15 @@ line-height: 1.5;
 
 p.img_center{
   text-align: center;
+  position: absolute;left:600px;bottom:350px;
 }
 
 .btns{
   text-align: center;
-
-
-
 }
 .btn{
-    width: 8%;
+  text-align: center;
+  width: 8%;
   display: inline-block;
 }
 
